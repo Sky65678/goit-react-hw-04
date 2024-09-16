@@ -1,0 +1,16 @@
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  margin: 10px;
+  display: flex;
+}
+
+.image:hover {
+  scale: 1.04;
+  cursor: zoom-in;
+}

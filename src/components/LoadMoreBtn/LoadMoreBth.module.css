@@ -1,0 +1,26 @@
+.button {
+  background-color: #007bff; /* Колір фону */
+  color: white; /* Колір тексту */
+  border: none; /* Без обводки */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  text-align: center; /* Вирівнювання тексту по центру */
+  text-decoration: none; /* Без підкреслення */
+  display: inline-block; /* Відображення як рядковий блок */
+  font-size: 16px; /* Розмір шрифту */
+  margin: 4px 2px; /* Відступи зовні кнопки */
+  cursor: pointer; /* Зміна курсору на pointer */
+  border-radius: 4px; /* Закруглені кути */
+  transition: background-color 0.3s; /* Анімація зміни фону */
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Колір фону при наведенні */
+}
+
+.butCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
